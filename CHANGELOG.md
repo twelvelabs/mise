@@ -1,5 +1,20 @@
 # Changelog
 
+## [2026.3.1](https://github.com/jdx/mise/compare/v2026.3.0..v2026.3.1) - 2026-03-02
+
+### 🐛 Bug Fixes
+
+- **(task)** skip depends_post when pre-dependency fails and main task never runs by @jdx in [#8426](https://github.com/jdx/mise/pull/8426)
+
+### 📦 Registry
+
+- fix julia version_expr closure syntax by @jdx in [#8420](https://github.com/jdx/mise/pull/8420)
+
+### Chore
+
+- **(ci)** tighten docker workflow tag filter to v[0-9]* by @jdx in [#8422](https://github.com/jdx/mise/pull/8422)
+- remove devcontainer and docker development setup by @jdx in [#8421](https://github.com/jdx/mise/pull/8421)
+
 ## [2026.3.0](https://github.com/jdx/mise/compare/v2026.2.24..v2026.3.0) - 2026-03-02
 
 ### 🚀 Features
